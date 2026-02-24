@@ -1,0 +1,59 @@
+.footer {
+  background: radial-gradient(800px 400px at 0% 0%, rgba(13, 110, 253, 0.07), transparent),
+              linear-gradient(180deg, rgba(2, 6, 23, 0.9), rgba(2, 6, 23, 0.98));
+  color: #e5e7eb; /* text-gray-200 */
+}
+
+.footer :is(h3, strong) {
+  color: #cbd5e1; /* text-gray-300 */
+}
+
+.footer a {
+  color: #e5e7eb;
+}
+
+.footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.cta {
+  background: linear-gradient(135deg, rgba(13,110,253,.12), rgba(99,102,241,.12));
+  border: 1px solid rgba(148,163,184,.25);
+}
+
+.linkList li + li,
+.contactList li + li {
+  margin-top: .5rem;
+}
+
+.iconBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 9999px;
+  background: rgba(148,163,184,.15);
+  color: #e5e7eb;
+  transition: transform .15s ease, background .15s ease;
+  border: 1px solid rgba(148,163,184,.25);
+}
+
+.iconBtn:hover {
+  transform: translateY(-1px);
+  background: rgba(148,163,184,.25);
+}
+
+.bottom {
+  border-top: 1px solid rgba(148,163,184,.25);
+  background: rgba(2, 6, 23, 0.9);
+}
+
+.bottomLinks a {
+  color: #94a3b8; /* text-slate-400 */
+}
+
+.bottomLinks a:hover {
+  color: #ffffff;
+}
